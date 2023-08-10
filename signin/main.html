@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScriBBler</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Playfair+Display&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+</head>
+
+<body>
+
+    <!-- CODE FOR HEADER SCETION IS HERE -->
+
+    <header class="header">
+        <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+        <div class="header-content">
+            <h1 class="website-title">ScriBBler</h1>
+            <h3 class="subheading">Explore, Imagine, Create</h3>
+        </div>
+        <div class="auth-buttons">
+            <button  class="sign-up-btn"><i class="fas fa-sign-in-alt" ></i> Sign In</button>
+            <button  class="sign-in-btn"><i class="fas fa-user-plus"></i> Sign Up</button>
+        </div>
+
+</header>
+
+<!-- CODE FOR SIGN IN AND SIGN UP FORM IS HERE-->
+
+<header>
+    <div class="overlay" id="signup-overlay">
+        <div class="popup">
+            <span class="close-btn" id="signup-close">&times;</span>
+            <h2 class="popup-title">Sign Up</h2>
+            <form class="signup-form">
+                <!-- sign-up form arefields here -->
+                <form action="#">
+                    <div class="data">
+                  <label>Full name</label>
+                  <input type="name" required>
+               </div>
+               <br>
+               <div class="data">
+                  <label>Email</label>
+                  <input type="email" required>
+               </div>
+               <br>
+
+               <div class="data">
+                  <label>Mobile</label>
+                  <input type="numbers" required>
+               </div>
+               <br>
+
+               <div class="data">
+                  <label>Password</label>
+                  <input type="password" required>
+               </div>
+               <br>
+
+               <div class="data">
+                  <label>Conferm password</label>
+                  <input type="password" required>
+               </div>
+               <br>
+
+               <div class="btn">
+                  <div class="inner"></div>
+                   <button type="submit" class="submit-btn">Sign Up</button>
+               </div>
+               <p>Have a account login<a href="#">Click Hear</p></a>
+            </form>
+            </form>
+            <p class="success-message" id="signup-success">congrats ...Sign Up Successful!</p>
+        </div>
+    </div>
+
+    <div class="overlay" id="signin-overlay">
+
+        <div class="popup">
+            <span class="close-btn" id="signin-close">&times;</span>
+            <h2 class="popup-title">Sign In</h2>
+            <form class="signin-form">
+                <!-- Add your sign-in form fields here -->
+                <div class="data">
+                  <label>Email or Mobile</label>
+                  <input type="numbers" required>
+               </div>
+               <br>
+                <div class="data">
+                  <label>Password</label>
+                  <input type="password" required>
+               <div class="btn">
+                  <div class="inner"></div>
+                   <button type="submit" class="submit-btn">Sign in</button>
+               </div>
+               <p>Dont have an account  <a href="#">creat account..</a></p>
+            <p class="success-message" id="signin-success">Sign In Successful! pleas contaniue to bloging and posting</p>
+        </div>
+    </div>
+    </header>
+
+<!-- CODE FOR VIEW BLOGS SECTION AND CREATE BLOG SECTION IS HEARE -->
+    <main>
+        <div class="buttons">
+            <button id="viewBlogsButton"><i class="fas fa-eye" ></i>View Blogs</button>
+            <button id="createBlogsButton"><i class="fas fa-pencil-alt"></i>Create Blogs</button>
+        </div>
+    </main>
+
+<!-- SCREEPT LINKED TO THE PAGE -->
+    <script src="script.js"></script>
+</body>
+
+</html>
